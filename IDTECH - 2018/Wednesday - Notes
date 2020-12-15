@@ -1,0 +1,57 @@
+Linear Regression
+    Not all data can be graphed through y=mx+b
+        could have curves, not graphable
+        2D vs. 3D graphs
+
+Polynomial Regression (Polynomials are expressions)
+    more accurate than linnear regression in some cases
+    Model: y = ax^2 + bx + c
+
+CATEGORICAL VARIABLES
+Incorrect:
+Age | Salary | Blood Group
+17      100     B+
+18      120     0+
+16      90      AB-
+23      125     B-
+(Make seperate columns for each blood type and input true or false for each employee)
+
+Numpy:
+    import numpy to perform mathematical operations on lists
+    can use on lists and matrices
+    "import numpy as np"
+
+.csv
+    def: comma separated values
+    used for long data sets
+
+pandas
+    importing data sets into python
+    "import pandas as pd"
+
+Matplotlib --> helps make maps and graphs
+    "import matplotlib.pyplot as plt"
+
+Scikit learn
+    contains a lot of machine learning models
+    "import sklearn" for all of the models
+    for this example: from sklearn.linear_model import LinearRegression
+
+SLICING
+    used in lists
+    B = A[0:3] (gets elements 0, 1, 2 and puts them in list B)
+    X = dataset.iloc[dimension1 , dimension2]
+
+DEEP LEARNING - NEURAL NETWORKS
+    brains are made of neurons
+        input
+        hidden (can have multiple)
+        output
+    travel through synapses
+    Hyperparameters - number of layers and neurons
+    Fully connected - each neuron is connected to every neuron in adjacent layers
+    activation function
+        ie. f(z) = 1/(1+e^-z)
+        used to set values in between -1 and 1
+            normalized matrix
+    takes an input and utilizes matrix multiplication to get a predicted value

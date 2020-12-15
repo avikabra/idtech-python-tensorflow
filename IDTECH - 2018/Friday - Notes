@@ -1,0 +1,6 @@
+AGENT
+Reinforcement Learning
+    reward good behaviors, punish bad ones
+
+eg. Pong
+Pong code: https://github.com/dhruvp/atari-pong/blob/master/me_pong.py

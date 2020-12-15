@@ -1,0 +1,25 @@
+TENSORFLOW
+    tensors flowing from one neuron to another
+Placeholders
+    a = tf.placeholder(dtype=tf.float32, shape=[constraint rows, constraint column, constraint number of matrices]) (None, no quotation marks)
+Variables
+    b = tf.constant('value', dtype = tf.float32) (datatype)
+Session (running the operation)
+    eg.
+    multiply = a*b
+    with tf.Session() as sess:
+        print(sess.run("thing you want to print", feed_dict={a:'13', b:'10'}))
+
+
+Dictionaries:
+    stores keys and values
+    Elements = {"Atomic Number 1": "Hydrogen", "Atomic Number 5": "Boron"}
+    Elements["Atomic Number 5"] (returns Boron)
+
+Image Recognition
+    images made of pixels
+    pixels have a rgb color
+    images are seen as a matrix of color values by computers
+    Image Datasets
+        CIFAR 10
+        MNIST

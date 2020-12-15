@@ -1,0 +1,91 @@
+Functions:
+- Reusability of code
+- Shortcut
+- Can return a value (or multiple values)
+    - note the order of the returned variables
+- Functions can take parameter
+
+Constructor Function
+- initializes variables
+- runs as soon as the program starts
+
+eg constructor.
+Class dog:
+def __init__(self):
+    print("Whoof")
+
+bob = dog()
+(The above prints whoof as soon as the dog object is declared)
+
+Class dog:
+def __init__(self, age, name):
+    self.name = name
+    self.age = age
+
+eg.
+def function(parameter):
+    code
+    return value
+
+eg.
+def ageRetrieval():
+    return age, location name
+
+#calling the function
+age, location = ageRetrieval()
+
+OBJECT ORIENTED PROGRAMMING
+
+oop vs. function based programming
+- has classes
+    - user defined datatype
+    - collection of variables and functions
+    - internal/within the class
+    - have to specify datatype in classes
+    - objects are variables of sorts
+
+self refers to object
+ie. def damagePlayer(self):
+        self.health = self.health - 5
+
+eg.
+class Player():
+    def damagePlayer():
+
+silver = Player()
+silver.damagePlayer()
+
+INHERITANCE
+- one way
+
+eg.
+class myPet:
+    def sayHello(self.person):
+        print(self.name + " says hello to ", person)
+
+class myDog(myPet)
+
+//myDog objects can call from myPet, but not the other way around
+
+MACHINE LEARNING
+- most important thing: data
+    - training vs. testing data
+        - training: eg. showing people tying their shoes
+        - testing: eg. tying kenneth's shoes
+        (The difference between training and testing is when the machine is learning, it learns to become very accurate
+        according to the training data. However, to test the accuracy in the real world, we compare the training line to
+        testing data.)
+    - quick draw on google
+- machine learns on its own rather than the user teaching the robot how to do it
+- machine learning has two types of problems
+    - supervised
+        - has a fixed goal
+    - unsupervised
+        - don't know what your goal will be, don't have a specific goal
+
+Linear Regression (Best fit line) is an example of supervised machine learning
+    Calculating error --> actual data - estimated data
+    Square the change in y to get an accurate error value
+    Ideal error value is zero
+    GRADIENT DESCENT
+        changing the model so the error is minimum
